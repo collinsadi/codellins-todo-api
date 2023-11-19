@@ -10,14 +10,14 @@ const sendEmail = (email,subject,html)=>{
 
         service: "gmail",
         auth: {
-            user: "collinsadi20@gmail.com",
-            pass:"sauxvjsakeriedqw"
+            user: "",
+            pass:""
         }
     })
         
         const mailOptions = {
 
-            from: "collinsadi20@gmail.com",
+            from: "",
             to: email,
             subject: subject,
             html: html
